@@ -1,0 +1,160 @@
+/* Responsive styles */
+
+/* Tablets (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.3rem;
+  }
+  
+  .tracks-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .track-card {
+    padding: 1.5rem;
+  }
+  
+  .track-icon, .benefit-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .track-features li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Large Mobile (481px - 767px) */
+@media screen and (max-width: 767px) {
+  section {
+    padding: 4rem 0;
+  }
+  
+  .container {
+    padding: 0 1.5rem;
+  }
+  
+  .hero {
+    min-height: auto;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+  }
+  
+  .hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .tracks-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  
+  .track-options {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .signup-form {
+    padding: 1.5rem;
+  }
+  
+  .nav-links {
+    gap: 1rem;
+  }
+  
+  .nav-link:not(.join-button) {
+    display: none;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+}
+
+/* Small Mobile (320px - 480px) */
+@media screen and (max-width: 480px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+  }
+  
+  .button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+  
+  .primary-button {
+    width: 100%;
+  }
+  
+  .track-title {
+    font-size: 1.3rem;
+  }
+  
+  .benefit-title {
+    font-size: 1.1rem;
+  }
+  
+  .track-icon, .benefit-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .track-card {
+    padding: 1.25rem;
+  }
+  
+  .logo-text {
+    font-size: 1.2rem;
+  }
+}
